@@ -18,7 +18,7 @@ def identify_language():
 
     errors = validate_file(filename)
     if (len(errors)):
-        return jsonify(errors), 400
+        return jsonify({'error': errors[0]}), 400
 
     file_save_path = os.path.join(app.config['UPLOAD_DIRECTORY'], filename)
     file.save(file_save_path)
@@ -51,6 +51,11 @@ def available_languages():
 
     return jsonify(available_languages)
 
+
+@api.route('/allowed-files')
+def allowed_files():
+    return jsonify(app.config['ALLOWED_FILE_EXTENSIONS'])
+
 def create_error(error_code, message) -> dict:
     return {
         'code': error_code,
@@ -59,12 +64,12 @@ def create_error(error_code, message) -> dict:
 
 def get_request_file(request):
     if 'file' not in request.files:
-        return jsonify(create_error(Constants.FILE_NOT_FOUND_ERROR, Constants.FILE_NOT_FOUND_ERROR_TEXT)), 400
+        return jsonify({'error': create_error(Constants.FILE_NOT_FOUND_ERROR, Constants.FILE_NOT_FOUND_ERROR_TEXT)}), 400
 
     file = request.files['file']
 
     if not file:
-        return jsonify(create_error(Constants.FILE_NOT_FOUND_ERROR, Constants.FILE_NOT_FOUND_ERROR_TEXT)), 400
+        return jsonify({'error': create_error(Constants.FILE_NOT_FOUND_ERROR, Constants.FILE_NOT_FOUND_ERROR_TEXT)}), 400
 
     return file
 
@@ -115,3 +120,7 @@ def get_language_info(lang_code: str = None) -> dict:
         return data        
     else:
         return NotImplementedError
+
+@api.app_errorhandler(413)
+def request_entity_too_large(error):
+    return jsonify({'error': create_error(Constants.FILE_TOO_LARGE_ERROR, Constants.FILE_TOO_LARGE_ERROR_TEXT)}), 413

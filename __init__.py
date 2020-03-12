@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, g, render_template, send_from_directory
 from flask_cors import CORS
 
-from .constants import *
+from .constants import Constants
 from .language_identifier import LanguageIdentifier
 
 
@@ -24,10 +24,6 @@ def create_app():
 
     with app.app_context():
         app.language_identifier = LanguageIdentifier()
-
-    @app.errorhandler(413)
-    def request_entity_too_large(error):
-        return jsonify({'error': constants.FILE_TOO_LARGE_ERROR}), 413
 
     @app.route('/', defaults={'path': '/'})
     @app.route('/<path:path>')

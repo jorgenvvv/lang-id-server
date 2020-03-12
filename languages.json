@@ -131,6 +131,7 @@
     },
     "de": {
       "name": "German",
+      "etName": "saksa keel",
       "nativeName": "Deutsch"
     },
     "dv": {
@@ -152,6 +153,7 @@
     },
     "en": {
       "name": "English",
+      "etName": "inglise keel",
       "nativeName": "English"
     },
     "eo": {
@@ -160,11 +162,13 @@
     },
     "es": {
       "name": "Spanish",
+      "etName": "hispaania keel",
       "nativeName": "Español"
     },
     "et": {
       "name": "Estonian",
-      "nativeName": "Eesti"
+      "nativeName": "Eesti",
+      "etName": "eesti keel"
     },
     "eu": {
       "name": "Basque",
@@ -181,7 +185,8 @@
     },
     "fi": {
       "name": "Finnish",
-      "nativeName": "Suomi"
+      "nativeName": "Suomi",
+      "etName": "soome keel"
     },
     "fj": {
       "name": "Fijian",
@@ -405,6 +410,7 @@
     },
     "lv": {
       "name": "Latvian",
+      "etName": "läti keel",
       "nativeName": "Latviešu"
     },
     "mg": {
@@ -554,6 +560,7 @@
     },
     "ru": {
       "name": "Russian",
+      "etName": "vene keel",
       "nativeName": "Русский"
     },
     "rw": {
@@ -707,6 +714,7 @@
     "ur": {
       "name": "Urdu",
       "nativeName": "اردو",
+      "etName": "urdu keel",
       "rtl": 1
     },
     "uz": {
