@@ -30,7 +30,7 @@ def identify_language():
             processed_file_path)
     language_info = get_language_info()
 
-    for prediction in predictions:
+    for prediction in predictions['predictions']:
         prediction['language'] = language_info['ALL_LANGUAGES'][prediction['language']]
 
     os.remove(file_save_path)

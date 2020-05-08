@@ -14,6 +14,7 @@ from .pytorch_models.models import XVectorModel
 class LanguageIdentifier:
         
     TOP_RESULTS_COUNT = 5
+    TOP_ATTENTION_COUNT = 10
 
     def __init__(self):
         cpu = torch.device('cpu')
@@ -25,10 +26,12 @@ class LanguageIdentifier:
         self.model.freeze()
 
 
-    def identify_language(self, input_file_path: str):
+    def identify_language(self, input_file_path: str) -> dict:
         input_wav = torchaudio.load(input_file_path, normalization=1 << 31)[0]
 
         y_hat = self.model(self.model.wav_to_features(input_wav))
+
+        attention = self.model.attention_pooling_layer.attention_value
 
         softmax = torch.nn.Softmax(dim=1)
         probabilities = softmax(y_hat)
@@ -42,13 +45,20 @@ class LanguageIdentifier:
 
         lang_names = [k for k in self.model.chunk_dataset_factory.label2id]
 
-        result = []
+        attention_top = torch.topk(attention, self.TOP_ATTENTION_COUNT)
+
+        predictions = []
         for idx, value in enumerate(labels_top_values):
             obj = {}
             obj['language'] = lang_names[labels_top_indices[idx]]
             obj['value'] = value
             obj['probability'] = probabilities_top_values[idx]
 
-            result.append(obj)
+            predictions.append(obj)
+
+        result = {}
+        result['attention_total'] = len(attention)
+        result['attention_indices'] = attention_top.indices.squeeze(0).tolist()
+        result['predictions'] = predictions
 
         return result
