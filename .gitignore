@@ -9,3 +9,6 @@ pytorch_models
 upload
 
 config.py
+
+public/*
+!public/index.html
