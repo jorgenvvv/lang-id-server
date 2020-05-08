@@ -233,6 +233,10 @@
       "nativeName": "هَوُسَ",
       "rtl": 1
     },
+    "haw": {
+      "name": "Hawaiian",
+      "nativeName": "ʻŌlelo Hawaiʻi"
+    },
     "he": {
       "name": "Hebrew",
       "nativeName": "עברית",
@@ -306,11 +310,20 @@
       "name": "Inuktitut",
       "nativeName": "ᐃᓄᒃᑎᑐᑦ"
     },
+    "iw": {
+      "name": "Hebrew",
+      "nativeName": "עברית",
+      "rtl": 1
+    },
     "ja": {
       "name": "Japanese",
       "nativeName": "日本語"
     },
     "jv": {
+      "name": "Javanese",
+      "nativeName": "Basa Jawa"
+    },
+    "jw": {
       "name": "Javanese",
       "nativeName": "Basa Jawa"
     },
