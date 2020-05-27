@@ -2,115 +2,143 @@
   "ALL_LANGUAGES": {
     "aa": {
       "name": "Afar",
+      "etName": "afari keel",
       "nativeName": "Afar"
     },
     "ab": {
       "name": "Abkhazian",
+      "etName": "abhaasi keel",
       "nativeName": "Аҧсуа"
     },
     "af": {
       "name": "Afrikaans",
+      "etName": "aafrika keel",
       "nativeName": "Afrikaans"
     },
     "ak": {
       "name": "Akan",
+      "etName": "akani keel",
       "nativeName": "Akana"
     },
     "am": {
       "name": "Amharic",
+      "etName": "amhara keel",
       "nativeName": "አማርኛ"
     },
     "an": {
       "name": "Aragonese",
+      "etName": "aragoni keel",
       "nativeName": "Aragonés"
     },
     "ar": {
       "name": "Arabic",
+      "etName": "araabia keel",
       "nativeName": "العربية",
       "rtl": 1
     },
     "as": {
       "name": "Assamese",
+      "etName": "assami keel",
       "nativeName": "অসমীয়া"
     },
     "av": {
       "name": "Avar",
+      "etName": "avaari keel",
       "nativeName": "Авар"
     },
     "ay": {
       "name": "Aymara",
+      "etName": "aimara keel",
       "nativeName": "Aymar"
     },
     "az": {
       "name": "Azerbaijani",
+      "etName": "aserbaidžaani keel",
       "nativeName": "Azərbaycanca / آذربايجان"
     },
     "ba": {
       "name": "Bashkir",
+      "etName": "baškiiri keel",
       "nativeName": "Башҡорт"
     },
     "be": {
       "name": "Belarusian",
+      "etName": "valgevene keel",
       "nativeName": "Беларуская"
     },
     "bg": {
       "name": "Bulgarian",
+      "etName": "bulgaaria keel",
       "nativeName": "Български"
     },
     "bh": {
       "name": "Bihari",
+      "etName": "bihaari keel",
       "nativeName": "भोजपुरी"
     },
     "bi": {
       "name": "Bislama",
+      "etName": "bislama keel",
       "nativeName": "Bislama"
     },
     "bm": {
       "name": "Bambara",
+      "etName": "bambara keel",
       "nativeName": "Bamanankan"
     },
     "bn": {
       "name": "Bengali",
+      "etName": "bengali keel",
       "nativeName": "বাংলা"
     },
     "bo": {
       "name": "Tibetan",
+      "etName": "tiibeti keel",
       "nativeName": "བོད་ཡིག / Bod skad"
     },
     "br": {
       "name": "Breton",
+      "etName": "bretooni keel",
       "nativeName": "Brezhoneg"
     },
     "bs": {
       "name": "Bosnian",
+      "etName": "bosnia keel",
       "nativeName": "Bosanski"
     },
     "ca": {
       "name": "Catalan",
+      "etName": "katalaani keel",
       "nativeName": "Català"
     },
     "ce": {
       "name": "Chechen",
+      "etName": "tšetšeeni keel",
       "nativeName": "Нохчийн"
     },
     "ceb": {
       "name": "Cebuano",
+      "etName": "sebu keel",
       "nativeName": "Bisaya / Sinugbuanon"
     },
     "ch": {
       "name": "Chamorro",
+      "etName": "tšamorro keel",
       "nativeName": "Chamoru"
     },
     "co": {
       "name": "Corsican",
+      "etName": "korsika keel",
       "nativeName": "Corsu"
     },
     "cr": {
       "name": "Cree",
+      "etName": "krii keel",
       "nativeName": "Nehiyaw"
     },
     "cs": {
       "name": "Czech",
+      "etName": "tšehhi keel",
       "nativeName": "Česky"
     },
     "cu": {
@@ -123,10 +151,12 @@
     },
     "cy": {
       "name": "Welsh",
+      "etName": "walesi keel",
       "nativeName": "Cymraeg"
     },
     "da": {
       "name": "Danish",
+      "etName": "taani keel",
       "nativeName": "Dansk"
     },
     "de": {
@@ -149,6 +179,7 @@
     },
     "el": {
       "name": "Greek",
+      "etName": "kreeka keel",
       "nativeName": "Ελληνικά"
     },
     "en": {
@@ -158,6 +189,7 @@
     },
     "eo": {
       "name": "Esperanto",
+      "etName": "esperanto keel",
       "nativeName": "Esperanto"
     },
     "es": {
@@ -167,15 +199,17 @@
     },
     "et": {
       "name": "Estonian",
-      "nativeName": "Eesti",
-      "etName": "eesti keel"
+      "etName": "eesti keel",
+      "nativeName": "Eesti"
     },
     "eu": {
       "name": "Basque",
+      "etName": "baski keel",
       "nativeName": "Euskara"
     },
     "fa": {
       "name": "Persian",
+      "etName": "pärsia keel",
       "nativeName": "فارسی",
       "rtl": 1
     },
@@ -194,10 +228,12 @@
     },
     "fo": {
       "name": "Faroese",
+      "etName": "fääri keel",
       "nativeName": "Føroyskt"
     },
     "fr": {
       "name": "French",
+      "etName": "prantsuse keel",
       "nativeName": "Français"
     },
     "fy": {
@@ -206,6 +242,7 @@
     },
     "ga": {
       "name": "Irish",
+      "etName": "iiri keel",
       "nativeName": "Gaeilge"
     },
     "gd": {
@@ -214,36 +251,44 @@
     },
     "gl": {
       "name": "Galician",
+      "etName": "galeegi keel",
       "nativeName": "Galego"
     },
     "gn": {
       "name": "Guarani",
+      "etName": "guaranii keel",
       "nativeName": "Avañe'ẽ"
     },
     "gu": {
       "name": "Gujarati",
+      "etName": "gudžarati keel",
       "nativeName": "ગુજરાતી"
     },
     "gv": {
       "name": "Manx",
+      "etName": "mänksi keel",
       "nativeName": "Gaelg"
     },
     "ha": {
       "name": "Hausa",
+      "etName": "hausa keel",
       "nativeName": "هَوُسَ",
       "rtl": 1
     },
     "haw": {
       "name": "Hawaiian",
+      "etName": "havai keel",
       "nativeName": "ʻŌlelo Hawaiʻi"
     },
     "he": {
       "name": "Hebrew",
+      "etName": "heebrea keel",
       "nativeName": "עברית",
       "rtl": 1
     },
     "hi": {
       "name": "Hindi",
+      "etName": "hindi keel",
       "nativeName": "हिन्दी"
     },
     "ho": {
@@ -252,18 +297,22 @@
     },
     "hr": {
       "name": "Croatian",
+      "etName": "horvaadi keel",
       "nativeName": "Hrvatski"
     },
     "ht": {
       "name": "Haitian",
+      "etName": "haiti keel",
       "nativeName": "Krèyol ayisyen"
     },
     "hu": {
       "name": "Hungarian",
+      "etName": "ungari keel",
       "nativeName": "Magyar"
     },
     "hy": {
       "name": "Armenian",
+      "etName": "armeenia keel",
       "nativeName": "Հայերեն"
     },
     "hz": {
@@ -272,10 +321,12 @@
     },
     "ia": {
       "name": "Interlingua",
+      "etName": "interlingua keel",
       "nativeName": "Interlingua"
     },
     "id": {
       "name": "Indonesian",
+      "etName": "indoneesia keel",
       "nativeName": "Bahasa Indonesia"
     },
     "ie": {
@@ -300,10 +351,12 @@
     },
     "is": {
       "name": "Icelandic",
+      "etName": "islandi keel",
       "nativeName": "Íslenska"
     },
     "it": {
       "name": "Italian",
+      "etName": "itaalia keel",
       "nativeName": "Italiano"
     },
     "iu": {
@@ -312,23 +365,28 @@
     },
     "iw": {
       "name": "Hebrew",
+      "etName": "heebrea keel",
       "nativeName": "עברית",
       "rtl": 1
     },
     "ja": {
       "name": "Japanese",
+      "etName": "jaapani keel",
       "nativeName": "日本語"
     },
     "jv": {
       "name": "Javanese",
+      "etName": "jaava keel",
       "nativeName": "Basa Jawa"
     },
     "jw": {
       "name": "Javanese",
+      "etName": "jaava keel",
       "nativeName": "Basa Jawa"
     },
     "ka": {
       "name": "Georgian",
+      "etName": "gruusia keel",
       "nativeName": "ქართული"
     },
     "kg": {
@@ -345,6 +403,7 @@
     },
     "kk": {
       "name": "Kazakh",
+      "etName": "kasahhi keel",
       "nativeName": "Қазақша"
     },
     "kl": {
@@ -353,14 +412,17 @@
     },
     "km": {
       "name": "Cambodian",
+      "etName": "khmeeri keel",
       "nativeName": "ភាសាខ្មែរ"
     },
     "kn": {
       "name": "Kannada",
+      "etName": "kannada keel",
       "nativeName": "ಕನ್ನಡ"
     },
     "ko": {
       "name": "Korean",
+      "etName": "korea keel",
       "nativeName": "한국어"
     },
     "kr": {
@@ -369,11 +431,13 @@
     },
     "ks": {
       "name": "Kashmiri",
+      "etName": "kašmiiri keel",
       "nativeName": "कश्मीरी / كشميري",
       "rtl": 1
     },
     "ku": {
       "name": "Kurdish",
+      "etName": "kurdi keel",
       "nativeName": "Kurdî / كوردی",
       "rtl": 1
     },
@@ -391,10 +455,12 @@
     },
     "la": {
       "name": "Latin",
+      "etName": "ladina keel",
       "nativeName": "Latina"
     },
     "lb": {
       "name": "Luxembourgish",
+      "etName": "letseburgi keel",
       "nativeName": "Lëtzebuergesch"
     },
     "lg": {
@@ -407,14 +473,17 @@
     },
     "ln": {
       "name": "Lingala",
+      "etName": "lingala keel",
       "nativeName": "Lingála"
     },
     "lo": {
       "name": "Laotian",
+      "etName": "lao keel",
       "nativeName": "ລາວ / Pha xa lao"
     },
     "lt": {
       "name": "Lithuanian",
+      "etName": "leedu keel",
       "nativeName": "Lietuvių"
     },
     "lu": {
@@ -428,6 +497,7 @@
     },
     "mg": {
       "name": "Malagasy",
+      "etName": "malagassi keel",
       "nativeName": "Malagasy"
     },
     "mh": {
@@ -436,38 +506,47 @@
     },
     "mi": {
       "name": "Maori",
+      "etName": "maori keel",
       "nativeName": "Māori"
     },
     "mk": {
       "name": "Macedonian",
+      "etName": "makedoonia keel",
       "nativeName": "Македонски"
     },
     "ml": {
       "name": "Malayalam",
+      "etName": "malajalami keel",
       "nativeName": "മലയാളം"
     },
     "mn": {
       "name": "Mongolian",
+      "etName": "mongoolia keel",
       "nativeName": "Монгол"
     },
     "mo": {
       "name": "Moldovan",
+      "etName": "moldova keel",
       "nativeName": "Moldovenească"
     },
     "mr": {
       "name": "Marathi",
+      "etName": "marathi keel",
       "nativeName": "मराठी"
     },
     "ms": {
       "name": "Malay",
+      "etName": "malai keel",
       "nativeName": "Bahasa Melayu"
     },
     "mt": {
       "name": "Maltese",
+      "etName": "malta keel",
       "nativeName": "bil-Malti"
     },
     "my": {
       "name": "Burmese",
+      "etName": "birma keel",
       "nativeName": "မြန်မာစာ"
     },
     "na": {
@@ -484,6 +563,7 @@
     },
     "ne": {
       "name": "Nepali",
+      "etName": "nepaali keel",
       "nativeName": "नेपाली"
     },
     "ng": {
@@ -492,14 +572,17 @@
     },
     "nl": {
       "name": "Dutch",
+      "etName": "hollandi keel",
       "nativeName": "Nederlands"
     },
     "nn": {
       "name": "Norwegian Nynorsk",
+      "etName": "uusnorra keel",
       "nativeName": "Norsk nynorsk"
     },
     "no": {
       "name": "Norwegian",
+      "etName": "norra keel",
       "nativeName": "Norsk"
     },
     "nr": {
@@ -516,6 +599,7 @@
     },
     "oc": {
       "name": "Occitan",
+      "etName": "oksitaani keel",
       "nativeName": "Occitan"
     },
     "oj": {
@@ -532,10 +616,12 @@
     },
     "os": {
       "name": "Ossetian / Ossetic",
+      "etName": "oseedi keel",
       "nativeName": "Иронау"
     },
     "pa": {
       "name": "Panjabi / Punjabi",
+      "etName": "pandžabi keel",
       "nativeName": "ਪੰਜਾਬੀ / पंजाबी / پنجابي"
     },
     "pi": {
@@ -544,15 +630,18 @@
     },
     "pl": {
       "name": "Polish",
+      "etName": "poola keel",
       "nativeName": "Polski"
     },
     "ps": {
       "name": "Pashto",
+      "etName": "puštu keel",
       "nativeName": "پښتو",
       "rtl": 1
     },
     "pt": {
       "name": "Portuguese",
+      "etName": "portugali keel",
       "nativeName": "Português"
     },
     "qu": {
@@ -569,6 +658,7 @@
     },
     "ro": {
       "name": "Romanian",
+      "etName": "rumeenia keel",
       "nativeName": "Română"
     },
     "ru": {
@@ -582,6 +672,7 @@
     },
     "sa": {
       "name": "Sanskrit",
+      "etName": "sanskriti keel",
       "nativeName": "संस्कृतम्"
     },
     "sc": {
@@ -590,10 +681,12 @@
     },
     "sco": {
       "name": "Scots",
+      "etName": "šoti keel",
       "nativeName": "Scots"
     },
     "sd": {
       "name": "Sindhi",
+      "etName": "sindhi keel",
       "nativeName": "सिनधि"
     },
     "se": {
@@ -610,14 +703,17 @@
     },
     "si": {
       "name": "Sinhalese",
+      "etName": "singali keel",
       "nativeName": "සිංහල"
     },
     "sk": {
       "name": "Slovak",
+      "etName": "slovaki keel",
       "nativeName": "Slovenčina"
     },
     "sl": {
       "name": "Slovenian",
+      "etName": "sloveeni keel",
       "nativeName": "Slovenščina"
     },
     "sm": {
@@ -626,18 +722,22 @@
     },
     "sn": {
       "name": "Shona",
+      "etName": "šona keel",
       "nativeName": "chiShona"
     },
     "so": {
       "name": "Somalia",
+      "etName": "somaali keel",
       "nativeName": "Soomaaliga"
     },
     "sq": {
       "name": "Albanian",
+      "etName": "albaania keel",
       "nativeName": "Shqip"
     },
     "sr": {
       "name": "Serbian",
+      "etName": "servbia keel",
       "nativeName": "Српски"
     },
     "ss": {
@@ -650,30 +750,37 @@
     },
     "su": {
       "name": "Sundanese",
+      "etName": "sunda keel",
       "nativeName": "Basa Sunda"
     },
     "sv": {
       "name": "Swedish",
+      "etName": "rootsi keel",
       "nativeName": "Svenska"
     },
     "sw": {
       "name": "Swahili",
+      "etName": "suahiili keel",
       "nativeName": "Kiswahili"
     },
     "ta": {
       "name": "Tamil",
+      "etName": "tamili keel",
       "nativeName": "தமிழ்"
     },
     "te": {
       "name": "Telugu",
+      "etName": "telugu keel",
       "nativeName": "తెలుగు"
     },
     "tg": {
       "name": "Tajik",
+      "etName": "tadžiki keel",
       "nativeName": "Тоҷикӣ"
     },
     "th": {
       "name": "Thai",
+      "etName": "tai keel",
       "nativeName": "ไทย / Phasa Thai"
     },
     "ti": {
@@ -682,10 +789,12 @@
     },
     "tk": {
       "name": "Turkmen",
+      "etName": "türkmeeni keel",
       "nativeName": "Туркмен / تركمن"
     },
     "tl": {
       "name": "Tagalog / Filipino",
+      "etName": "tagalogi / filipiini keel",
       "nativeName": "Tagalog"
     },
     "tn": {
@@ -698,6 +807,7 @@
     },
     "tr": {
       "name": "Turkish",
+      "etName": "türgi keel",
       "nativeName": "Türkçe"
     },
     "ts": {
@@ -706,6 +816,7 @@
     },
     "tt": {
       "name": "Tatar",
+      "etName": "tatari keel",
       "nativeName": "Tatarça"
     },
     "tw": {
@@ -722,6 +833,7 @@
     },
     "uk": {
       "name": "Ukrainian",
+      "etName": "ukraina keel",
       "nativeName": "Українська"
     },
     "ur": {
@@ -732,6 +844,7 @@
     },
     "uz": {
       "name": "Uzbek",
+      "etName": "usbeki keel",
       "nativeName": "Ўзбек"
     },
     "ve": {
@@ -740,6 +853,7 @@
     },
     "vi": {
       "name": "Vietnamese",
+      "etName": "vietnami keel",
       "nativeName": "Tiếng Việt"
     },
     "vo": {
@@ -752,6 +866,7 @@
     },
     "war": {
       "name": "Waray",
+      "etName": "varai keel",
       "nativeName": "Waray"
     },
     "wo": {
@@ -764,11 +879,13 @@
     },
     "yi": {
       "name": "Yiddish",
+      "etName": "jidiši keel",
       "nativeName": "ייִדיש",
       "rtl": 1
     },
     "yo": {
       "name": "Yoruba",
+      "etName": "joruba keel",
       "nativeName": "Yorùbá"
     },
     "za": {
@@ -777,6 +894,7 @@
     },
     "zh": {
       "name": "Chinese",
+      "etName": "hiina keel",
       "nativeName": "中文"
     },
     "zu": {
